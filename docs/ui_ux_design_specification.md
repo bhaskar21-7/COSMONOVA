@@ -147,3 +147,4 @@ A prominent callout component utilizing alert styling:
 ---
 
 *Document status: Pre-hackathon UI/UX conceptual specification. Implementation scheduled for hackathon sprint (Nov 14–16, 2026).*
+
