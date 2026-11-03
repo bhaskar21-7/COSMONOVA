@@ -1,6 +1,7 @@
 # Development Environment Setup Guide
 
-**Terrain Intelligence — NASA Space Apps Challenge 2026**
+**COSMONOVA — NASA Space Apps Challenge 2026**  
+*Planetary Analog Intelligence Platform*
 
 > [!NOTE]
 > This guide is based on the actual system environment inspected on November 3, 2026. Commands are for Windows (PowerShell). Adapt for macOS/Linux as needed.
@@ -131,10 +132,10 @@ print('Verification complete.')
 
 ```powershell
 # Register the virtual environment as a Jupyter kernel
-python -m ipykernel install --user --name terrain-intelligence --display-name "Terrain Intelligence"
+python -m ipykernel install --user --name cosmonova --display-name "COSMONOVA"
 ```
 
-Then in JupyterLab, select the "Terrain Intelligence" kernel for notebooks.
+Then in JupyterLab, select the "COSMONOVA" kernel for notebooks.
 
 ### 5. Initialize Git
 

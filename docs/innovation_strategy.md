@@ -1,6 +1,6 @@
 # Innovation Strategy
 
-**Differentiation and Scientific Value**
+**Differentiation and Scientific Value — COSMONOVA Platform Strategy**
 
 > [!NOTE]
 > This document assesses our proposed features for scientific value, feasibility, and honest novelty. Claims of novelty are qualified — we cannot verify what other teams or existing tools provide.

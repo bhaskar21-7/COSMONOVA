@@ -1,6 +1,7 @@
 # References and Source URLs
 
-**Bibliography and Data Portals for Terrain Intelligence**
+**Bibliography and Data Portals for COSMONOVA**  
+*Planetary Analog Intelligence Platform*
 
 > [!WARNING]
 > Many of these references and URLs are from prior knowledge. **Open each link before use.** Verify bibliographic details (authors, year, journal, volume, pages) against the actual publication before citing.

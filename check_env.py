@@ -1,5 +1,6 @@
 """
-Terrain Intelligence — Environment Verification Script
+COSMONOVA — Environment Verification Script
+Planetary Analog Intelligence Platform
 NASA Space Apps Challenge 2026 Preparation
 """
 
@@ -11,7 +12,8 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 print("=" * 70)
-print("  [*] TERRAIN INTELLIGENCE - SYSTEM ENVIRONMENT AUDIT")
+print("  [*] COSMONOVA - SYSTEM ENVIRONMENT AUDIT")
+print("  [*] Planetary Analog Intelligence Platform")
 print("=" * 70)
 
 print(f"\n[System Info]")

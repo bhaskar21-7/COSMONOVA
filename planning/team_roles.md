@@ -1,6 +1,7 @@
 # Team Roles
 
-**Terrain Intelligence — NASA Space Apps Challenge 2026**
+**COSMONOVA — NASA Space Apps Challenge 2026**  
+*Planetary Analog Intelligence Platform*
 
 > [!NOTE]
 > This document defines recommended team roles for the hackathon. Assignments should be made before the event starts.

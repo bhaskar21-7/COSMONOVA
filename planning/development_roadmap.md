@@ -1,6 +1,7 @@
 # Development Roadmap
 
-**Terrain Intelligence — Pre-Hackathon and Event Timeline**
+**COSMONOVA — Pre-Hackathon and Event Timeline**  
+*Planetary Analog Intelligence Platform*
 
 > [!NOTE]
 > This roadmap separates **preparation activities** (allowed before the hackathon) from **implementation activities** (hackathon only). Do not build the competition solution during preparation.

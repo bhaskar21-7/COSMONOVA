@@ -1,6 +1,6 @@
-# Contributing to Terrain Intelligence
+# Contributing to COSMONOVA
 
-Thank you for your interest in contributing to the Terrain Intelligence project.
+Thank you for your interest in contributing to the COSMONOVA project (Planetary Analog Intelligence Platform).
 
 > [!NOTE]
 > This project is being prepared for the NASA Space Apps Challenge 2026 (November 14, 2026). Contributions are currently limited to the preparation team.

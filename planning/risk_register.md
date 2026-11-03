@@ -1,6 +1,7 @@
 # Risk Register
 
-**Terrain Intelligence — Technical and Scientific Risks**
+**COSMONOVA — Technical and Scientific Risks**  
+*Planetary Analog Intelligence Platform*
 
 > [!NOTE]
 > Risks are assessed on Severity (Critical / High / Medium / Low) and include specific mitigations. Review this register before the hackathon and update during the event.

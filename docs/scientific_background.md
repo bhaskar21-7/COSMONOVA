@@ -1,9 +1,9 @@
 # Scientific Background
 
-**Terrestrial Analogs for Lunar and Martian Exploration**
+**Terrestrial Analogs for Lunar and Martian Exploration — COSMONOVA Scientific Framework**
 
 > [!NOTE]
-> This document summarizes the scientific foundations for the Terrain Intelligence project. All claims are sourced from published literature. Items marked [verify] require human verification of the citation before use.
+> This document summarizes the scientific foundations for the COSMONOVA project (Planetary Analog Intelligence Platform). All claims are sourced from published literature. Items marked [verify] require human verification of the citation before use.
 
 ---
 

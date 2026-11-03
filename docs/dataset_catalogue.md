@@ -1,6 +1,7 @@
 # Dataset Catalogue
 
-**Structured Inventory of Open Datasets for Terrain Intelligence**
+**Structured Inventory of Open Datasets for COSMONOVA**  
+*Planetary Analog Intelligence Platform*
 
 > [!IMPORTANT]
 > Resolutions, formats, and URLs are from published documentation and prior knowledge. **Every URL, resolution, and license must be verified by a human before use.** Items marked [verify] are less certain.

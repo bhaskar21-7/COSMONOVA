@@ -1,6 +1,6 @@
 # Diagrams
 
-This directory contains architecture and workflow diagrams for the Terrain Intelligence project.
+This directory contains architecture and workflow diagrams for the COSMONOVA project (Planetary Analog Intelligence Platform).
 
 ## Contents
 

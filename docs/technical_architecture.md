@@ -1,6 +1,7 @@
 # Technical Architecture
 
-**Proposed System Architecture for Terrain Intelligence**
+**Proposed System Architecture for COSMONOVA**  
+*Planetary Analog Intelligence Platform*
 
 > [!IMPORTANT]
 > This document describes a **proposed** architecture. No system has been implemented. The architecture will be refined and built during the hackathon event.

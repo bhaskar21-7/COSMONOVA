@@ -1,6 +1,6 @@
 # Statistical Methodology
 
-**Framework for Multi-Dimensional Analog Comparison**
+**Framework for Multi-Dimensional Analog Comparison — COSMONOVA Statistical Engine**
 
 > [!IMPORTANT]
 > This document describes a **proposed** statistical framework. No algorithms have been implemented. Methods will be refined and coded during the hackathon event.

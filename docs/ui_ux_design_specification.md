@@ -1,6 +1,7 @@
 # UI/UX Conceptual Design Specification
 
-**Terrain Intelligence — Pre-Hackathon Conceptual Application Design**
+**COSMONOVA — Pre-Hackathon Conceptual Application Design**  
+*Planetary Analog Intelligence Platform*
 
 > [!IMPORTANT]
 > This is a **conceptual design specification and wireframe blueprint** for the future hackathon application. In strict adherence to competition preparation rules, **no front-end code or production application has been implemented**.
@@ -9,7 +10,7 @@
 
 ## 1. Design Vision & Philosophy
 
-Terrain Intelligence serves a dual audience: **planetary science researchers / mission planners** requiring rigorous multi-dimensional data, and **general challenge evaluators / students** seeking intuitive visual exploration.
+COSMONOVA serves a dual audience: **planetary science researchers / mission planners** requiring rigorous multi-dimensional data, and **general challenge evaluators / students** seeking intuitive visual exploration.
 
 The user interface is designed around four core principles:
 1. **Never a Single Scalar**: Reject misleading "90% match" badges. Always display multi-dimensional vectors with clear tier labels (Tier A: Direct, Tier B: Physical diff, Tier C: Proxy, Tier D: Invariant mismatch).
@@ -25,7 +26,7 @@ The application will be organized into a multi-panel responsive scientific dashb
 
 ```
 +----------------------------------------------------------------------------------------------------+
-| 🌍 TERRAIN INTELLIGENCE  |  NASA Space Apps 2026  |  [Status: Pre-Hackathon Scientific Prototype]  |
+| 🪐 COSMONOVA  |  Planetary Analog Intelligence Platform  |  [Status: Pre-Hackathon Scientific Prototype]  |
 +----------------------------------------------------------------------------------------------------+
 | SIDEBAR: MISSION CONTROLS       | MAIN VIEWPORT: INTERACTIVE EXPLORATION & ANALYSIS                |
 |                                 |                                                                  |

@@ -1,6 +1,9 @@
-# Project Vision — Terrain Intelligence
+# Project Vision — COSMONOVA
 
-**NASA Space Apps Challenge 2026**
+**Planetary Analog Intelligence Platform**  
+*Where Physics Meets Probability, Beyond Earth.*
+
+**NASA Space Apps Challenge 2026**  
 *"Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars"*
 
 > [!NOTE]
@@ -37,7 +40,9 @@ Democratizing analog identification with open data and open methods allows insti
 
 ## Proposed Solution Direction
 
-Terrain Intelligence aims to be a **scientific comparison and discovery tool** that:
+**COSMONOVA** is a planetary analog discovery platform that explores Earth environments as potential analogs for lunar and Martian landscapes through geospatial data, statistical analysis, remote sensing, and scientific comparison.
+
+COSMONOVA aims to be a **scientific comparison and discovery tool** that:
 
 1. **Compares terrain, thermal, and geological properties** between Earth sites and lunar/Martian target environments using matched-baseline, multi-scale analysis.
 2. **Operates per mission objective** — applying different constraints and weightings for rover mobility, habitat siting, geological exploration, or astronaut training.

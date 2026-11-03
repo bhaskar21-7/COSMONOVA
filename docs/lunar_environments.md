@@ -1,6 +1,6 @@
 # Lunar Environments
 
-**Target Profiles for Analog Comparison**
+**Target Profiles for Analog Comparison — COSMONOVA Reference Target Models**
 
 > [!NOTE]
 > These are reference descriptions of lunar environments, drawn from published literature. They should be treated as **target profiles to be quantified from data during the hackathon**, not as hard-coded values.

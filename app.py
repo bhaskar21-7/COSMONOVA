@@ -1,6 +1,9 @@
 """
-Terrain Intelligence — Pre-Hackathon Research & Architecture Explorer
+COSMONOVA — Planetary Analog Intelligence Platform
+Pre-Hackathon Research & Architecture Explorer
 NASA Space Apps Challenge 2026 Preparation
+
+Where Physics Meets Probability, Beyond Earth.
 
 LIGHT SCIENTIFIC DESIGN SYSTEM
 A clean, professional planetary-science dashboard for analog candidate research,
@@ -13,8 +16,8 @@ import plotly.graph_objects as go
 from pathlib import Path
 
 st.set_page_config(
-    page_title="Terrain Intelligence | NASA Space Apps 2026",
-    page_icon="🌍",
+    page_title="COSMONOVA | Planetary Analog Intelligence Platform",
+    page_icon="🪐",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -157,13 +160,24 @@ st.markdown("""
 # ==============================================================================
 st.sidebar.markdown("""
 <div style="padding: 4px 0 16px 0; border-bottom: 1px solid #E2E8F0; margin-bottom: 16px;">
-    <div style="font-size: 0.76rem; font-weight: 700; color: #0284C7; letter-spacing: 0.08em; text-transform: uppercase;">
-        NASA Space Apps 2026
+    <div style="font-size: 0.74rem; font-weight: 700; color: #0284C7; letter-spacing: 0.08em; text-transform: uppercase;">
+        NASA Space Apps Challenge 2026
     </div>
-    <div style="font-size: 1.35rem; font-weight: 800; color: #0F172A; margin-top: 2px; letter-spacing: -0.01em;">
-        TERRAIN INTELLIGENCE
+    <div style="font-size: 1.45rem; font-weight: 850; color: #0F172A; margin-top: 4px; letter-spacing: 0.02em; display: flex; align-items: center; gap: 9px;">
+        <svg width="26" height="26" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14" r="8" fill="#0F172A" stroke="#0284C7" stroke-width="1.8"/>
+            <ellipse cx="14" cy="14" rx="13" ry="5.2" stroke="#6366F1" stroke-width="1.6" transform="rotate(-28 14 14)"/>
+            <circle cx="19.5" cy="8.5" r="1.8" fill="#38BDF8"/>
+        </svg>
+        <span>COSMONOVA</span>
     </div>
-    <div style="margin-top: 6px;">
+    <div style="font-size: 0.76rem; font-weight: 600; color: #475569; margin-top: 3px; line-height: 1.3;">
+        Planetary Analog Intelligence Platform
+    </div>
+    <div style="font-size: 0.71rem; color: #6366F1; font-style: italic; margin-top: 3px;">
+        Where Physics Meets Probability, Beyond Earth.
+    </div>
+    <div style="margin-top: 8px;">
         <span class="badge-prep">PRE-HACKATHON WORKSPACE</span>
     </div>
 </div>
@@ -196,8 +210,17 @@ BASE_DIR = Path(__file__).resolve().parent
 # 1. OVERVIEW & VISION
 # ==============================================================================
 if menu == "1. Overview & Vision":
-    st.markdown('<div class="main-header">TERRAIN INTELLIGENCE</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">Mission-Specific Earth Analog Discovery for Lunar and Martian Exploration</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">COSMONOVA</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">Planetary Analog Intelligence Platform &nbsp;·&nbsp; <span style="color: #6366F1; font-style: italic;">Where Physics Meets Probability, Beyond Earth.</span></div>', unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="card-light" style="border-left: 4px solid #0284C7; margin-bottom: 20px;">
+        <p style="margin: 0; font-size: 0.98rem; color: #1E293B; line-height: 1.6;">
+            <b>COSMONOVA</b> is a planetary analog discovery platform that explores Earth environments as potential analogs 
+            for lunar and Martian landscapes through geospatial data, statistical analysis, remote sensing, and scientific comparison.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
     st.warning(
         "**Scientific Integrity Notice:** This workspace contains pre-hackathon preparation, literature review, "
@@ -688,7 +711,7 @@ elif menu == "4. Comparability Tiers & Failure Analysis":
     )
 
     st.markdown("""
-    | Tier | Scientific Definition | Example Physical Properties | Treatment in Terrain Intelligence |
+    | Tier | Scientific Definition | Example Physical Properties | Treatment in COSMONOVA |
     | :--- | :--- | :--- | :--- |
     | **Tier A** | Direct physical equivalence measured by comparable sensor physics | Elevation, Slope distribution, Multi-scale RMS roughness | **Enters distance calculation** (Wasserstein-1 / Mahalanobis with shrinkage) |
     | **Tier B** | Same physical quantity, altered by planetary boundary conditions | Skin surface temperature, Diurnal temperature amplitude | **Enters distance with inflated variance penalty** and explicit caveats |
@@ -749,7 +772,7 @@ elif menu == "4. Comparability Tiers & Failure Analysis":
 
     st.info(
         "**Scientific Principle:** Analog failure analysis is our key differentiator. Instead of outputting an unscientific '88% match', "
-        "Terrain Intelligence explicitly details what can be tested in the field (slope traverse, basaltic impact shock) and what must be simulated in vacuum chambers."
+        "COSMONOVA explicitly details what can be tested in the field (slope traverse, basaltic impact shock) and what must be simulated in vacuum chambers."
     )
 
 # ==============================================================================

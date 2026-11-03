@@ -1,5 +1,6 @@
 # ==============================================================================
-# Terrain Intelligence — Python Dependencies
+# COSMONOVA — Python Dependencies
+# Planetary Analog Intelligence Platform
 # NASA Space Apps Challenge 2026
 # ==============================================================================
 # This file lists dependencies for the PREPARATION phase.

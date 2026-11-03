@@ -1,6 +1,6 @@
 # Earth Analog Candidates
 
-**Candidate Sites for Lunar and Martian Analog Comparison**
+**Candidate Sites for Lunar and Martian Analog Comparison — COSMONOVA Candidate Dossier**
 
 > [!IMPORTANT]
 > No site listed here is assumed validated as an analog for our specific objectives. "Published analog use" means the literature uses the site as an analog for *some* purpose, which is not the same as validation for *our* use. Sites are presented as **candidates for investigation**, not as confirmed analogs.

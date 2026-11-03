@@ -1,9 +1,9 @@
 # Scientific Limitations
 
-**Known Constraints, Gaps, and Honest Caveats**
+**Known Constraints, Gaps, and Honest Caveats — COSMONOVA Scientific Integrity Framework**
 
 > [!CAUTION]
-> This document exists because scientific integrity demands explicit acknowledgment of what our tool **cannot do**, what it **does not know**, and where its claims are **weakest**. Ignoring these limitations would undermine the project's credibility.
+> This document exists because scientific integrity demands explicit acknowledgment of what the COSMONOVA platform **cannot do**, what it **does not know**, and where its claims are **weakest**. Ignoring these limitations would undermine the project's credibility.
 
 ---
 

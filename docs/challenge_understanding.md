@@ -1,6 +1,6 @@
 # Challenge Understanding
 
-**NASA Space Apps Challenge 2026**
+**COSMONOVA — NASA Space Apps Challenge 2026**  
 *"Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars"*
 
 > [!NOTE]
