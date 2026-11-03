@@ -36,13 +36,14 @@ The application will be organized into a multi-panel responsive scientific dashb
 |    ( ) Custom Constraints       | - Candidate: Lonar Crater / Ladakh / Atacama                     |
 |                                 |------------------------------------------------------------------|
 | 2. Target Planetary Body        | LEFT: Geospatial Map View        | RIGHT: Telemetry & Evaluation |
-|    [ Moon (Artemis S-Pole)  v ] |                                  |                               |
-|                                 | Interactive Leaflet/PyDeck Map   | [Similarity Vector breakdown] |
-| 3. Earth Analog Filter          | - Candidate boundary layers      | - Terrain Slope (Tier A): 0.84|
-|    [x] High-Latitude Polar      | - Elevation heatmaps             | - Roughness (Tier A): 0.79    |
-|    [x] Basaltic / Volcanic      | - Planetary target overlay inset | - Thermal Range (Tier B): 0.42|
-|    [x] Cold / Arid Deserts      |                                  | - Lithology (Tier C): High    |
-|    [x] Indian Candidates        |                                  |-------------------------------|
+|    [ Moon (Artemis S-Pole)  v ] |                                  | [ILLUSTRATIVE WIREFRAME MOCKUP|
+|                                 | Interactive Leaflet/PyDeck Map   |  NO METRICS YET COMPUTED]     |
+| 3. Earth Analog Filter          | - Candidate boundary layers      | [Similarity Vector Schema]    |
+|    [x] High-Latitude Polar      | - Elevation heatmaps             | - Terrain Slope (Tier A): [W1]|
+|    [x] Basaltic / Volcanic      | - Planetary target overlay inset | - Roughness (Tier A): [RMS]   |
+|    [x] Cold / Arid Deserts      |                                  | - Thermal Range (Tier B): [ΔT]|
+|    [x] Indian Candidates        |                                  | - Lithology (Tier C): [Class] |
+|                                 |                                  |-------------------------------|
 |                                 |                                  | [Analog Failure Matrix Tier D]|
 | 4. Hard Constraints (Sliders)   |                                  | [!] Gravity: 1.62 vs 9.81 m/s²|
 |    Max Slope Threshold: [15° ]  |                                  | [!] Pressure: Vac vs 101 kPa  |
@@ -50,7 +51,7 @@ The application will be organized into a multi-panel responsive scientific dashb
 |                                 |                                  | [!] PSR Temp (<40K): NONE     |
 | [ Run SMAA Evaluation ]         |                                  |-------------------------------|
 |                                 |                                  | [Uncertainty & Coverage Band] |
-|                                 |                                  | - Coverage: 92% | CI: ±4.2°   |
+|                                 |                                  | - Coverage: [%] | CI: [±dev]  |
 +---------------------------------+----------------------------------+-------------------------------+
 ```
 
@@ -123,24 +124,24 @@ A prominent callout component utilizing alert styling:
 
 ## 5. Screen Wireframes (ASCII Schematics)
 
-### Screen 1: Rover Mobility Siting View
+### Screen 1: Rover Mobility Siting View (Illustrative Wireframe Template)
 ```
 +-----------------------------------------------------------------------------+
-| [Earth] Lonar Crater, India   VS   [Moon] Artemis Region: Shackleton Rim    |
+| [Earth] Candidate Site (e.g. Lonar)   VS   [Moon] Artemis S-Pole Rim (LOLA) |
 +-----------------------------------------------------------------------------+
-| MAP VIEW                                    | EVALUATION VECTOR             |
-| [=========================================] | Dimension       Match   95% CI|
-| [  * (Lonar Basin, 1.8km)                 ] | Terrain Slope   [====|--] 82% |
-| [    Elev: 475m - 600m                    ] | Micro-Roughness [===|---] 74% |
-| [    Baseline GSD: 30m harmonized         ] | Thermal Range   [=|-----] 31% |
-| [=========================================] | Lithology Class [====|--] 80% |
-| INSET: LOLA 20m Lunar Altimetry Track       |-------------------------------|
-| [=========================================] | ANALOG FAILURE WARNING (Tier D)|
-| [  O (Shackleton Rim Crest)               ] | [X] Gravity: 1.62 m/s² (Diff) |
-| [    Max Slope: 28° | Sun elev: 1.5°      ] | [X] Ambient: Vacuum (Diff)    |
-| [=========================================] | [X] Regolith: Unweathered (D) |
+| MAP VIEW                                    | EVALUATION VECTOR SCHEMA      |
+| [=========================================] | Dimension       Metric  95% CI|
+| [  * (Earth Candidate Extent)             ] | Terrain Slope   [W1-dist] [CI]|
+| [    Elev: Min - Max                      ] | Micro-Roughness [RMS-dev] [CI]|
+| [    Harmonized GSD: 30m                  ] | Thermal Range   [ΔT-band] [CI]|
+| [=========================================] | Lithology Class [Categorical] |
+| INSET: LOLA Lunar Altimetry Profile         |-------------------------------|
+| [=========================================] | INVARIANT FAILURE FLAGS Tier D|
+| [  O (Target Planetary Feature)           ] | [!] Gravity: 1.62 m/s² (FAIL) |
+| [    LOLA Topography Profile              ] | [!] Pressure: Vacuum (FAIL)   |
+| [=========================================] | [!] PSR Cold: <40K (FAIL)     |
 +-----------------------------------------------------------------------------+
-| DATA COVERAGE: 94.2%  |  SPATIAL BOOTSTRAP BLOCKS: 64  |  SMAA RANK ACCEPT: 1st|
+| [ILLUSTRATIVE WIREFRAME TEMPLATE — METRICS COMPUTED DURING HACKATHON SPRINT]|
 +-----------------------------------------------------------------------------+
 ```
 
